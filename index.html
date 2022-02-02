@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<link rel="icon" type="image/jpg" href="imagem/22.png" />
+	<br>
+	<title>Lacoste | EUA - Polo shirts, shoes ,leather goods</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	
+</head>
+<body>
+	<img src="imagem/22.png" width="05%" height="09%"> 	
+	<ul>
+		<li><a href="contact.asp">Contact</a></li>
+		<li><a href="about.asp">About us</a></li>
+	  </ul>
+	<span class="imagem"><img src="imgem/88.jpg" alt=""></span>
+ 	
+	<div class="container">
+		<div class="container-login">
+			<div class="wrap-login">
+				<form class="login-form">
+					<span class="login-form-title">
+						Login Live!
+					</span>
+
+					<div class="wrap-input margin-top-35 margin-bottom-35">
+						<input class="input-form" type="text" name="email" autocomplete="off">
+						<span class="focus-input-form" data-placeholder="E-mail"></span>
+					</div>
+
+					<div class="wrap-input margin-bottom-35">
+						<input class="input-form" type="password" name="password">
+						<span class="focus-input-form" data-placeholder="Password"></span>
+					</div>
+
+					<div class="container-login-form-btn">
+						<button class="login-form-btn">
+							Login
+						</button>
+					</div>
+
+					<ul class="login-utils">
+						<li class="margin-bottom-8 margin-top-8">
+							<span class="text1">
+								Forgot your 
+
+							</span>
+
+							<a href="#" class="text2">
+								<br>password ?
+							</a>
+						</li>
+
+						<li>
+							<span class="text1">
+								Register
+							</span>
+
+							<a href="#" class="text2">
+								<br>create account
+							</a>
+						</li>
+					</ul>
+				</form>
+			</div>
+			<img src="imagem/99.png" width="600" height="300" class="margin-left-50" />
+
+			
+		</div>
+	</div>
+	
+	<script>
+		let inputs = document.getElementsByClassName('input-form');
+		for (let input of inputs) {
+			input.addEventListener("blur", function() {
+				if(input.value.trim() != ""){
+					input.classList.add("has-val");
+				} else {
+					input.classList.remove("has-val");
+				}
+			});
+		}
+	</script>
+
+</body>
+</html>
